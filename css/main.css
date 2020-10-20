@@ -92,8 +92,7 @@ textarea {
 }
 
 #content {
-  text-align: center;
-  width: 45%;
+  max-width: 45%;
   margin-left: auto;
   margin-right: auto;
 }
