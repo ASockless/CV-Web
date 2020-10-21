@@ -87,6 +87,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#header-links {
+  text-align: left;
+}
+
+#content {
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +272,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
