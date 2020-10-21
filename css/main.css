@@ -87,18 +87,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
+
 #header-links {
   text-align: left;
 }
 
 #content {
-  max-width: 45%;
-  margin-left: auto;
-  margin-right: auto;
+  margin:1em;
 }
 
-
-
+#header-title {
+  font-family: 'Oswald', sans-serif; */
+}
+.cv-section {
+  font-family: 'Nunito', sans-serif;
+}
+.WLE-section h2,h3,p{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -189,6 +197,11 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+  #content {
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media print,
