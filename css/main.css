@@ -88,7 +88,9 @@ textarea {
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
-
+html {
+  background-color: #f8efd4;
+}
 #header-links {
   text-align: left;
 }
@@ -104,12 +106,18 @@ textarea {
   font-family: 'Nunito', sans-serif;
   font-size: 0.75em;
 }
-.cv-section h1{
-
+.cv-section h1,h2, li {
+  color: #132743;
 }
+.cv-section a {
+  color: #d7385e;
+}
+
+
 .WLE-section h2,h3,p{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  color: #132743;
 }
 /* ==========================================================================
    Helper classes
