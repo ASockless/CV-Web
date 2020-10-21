@@ -109,6 +109,7 @@ html {
 
 #header-title {
   font-family: sans-serif;
+  color: var(--text-color);
 }
 .cv-section {
   font-family: 'Nunito', sans-serif;
