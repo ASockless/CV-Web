@@ -90,10 +90,10 @@ textarea {
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
 
 :root {
-  --background-color: #e7dfd5;
-  --link-color: #84a9ac;
-  --date-color: #3b6978;
-  --text-color: #204051;
+  --background-color: #00303b;
+  --link-color: #d4984a;
+  --date-color: #d4984a;
+  --text-color: #ffffc7;
 }
 
 html {
@@ -118,9 +118,6 @@ html {
 .cv-section h1,h2, li {
   color: var(--text-color);
 }
-.cv-section h3 {
-  color: var(--text-color);
-}
 
 .cv-section p {
   color: var(--text-color);
@@ -131,10 +128,13 @@ html {
 }
 
 
-.WLE-section h2,h3,p{
+.WLE-section h2,p{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   color: var(--text-color);
+}
+.cv-date {
+  color: var(--date-color)
 }
 /* ==========================================================================
    Helper classes
