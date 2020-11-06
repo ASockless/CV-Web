@@ -107,6 +107,15 @@ html {
   margin:1em;
 }
 
+
+#profile-photo {
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header-title {
   font-family: sans-serif;
   color: var(--text-color);
@@ -234,13 +243,28 @@ html {
   .cv-section {
     font-size: 0.95em;
   }
+  #header-title {
+    max-width: 75%;
+    /* float: left; */
+  }
+  #profile-photo {
+    max-width: 35%;
+    float: none;
+  }
 }
-
+@media only screen and (min-width: 100em) {
+  #profile-photo {
+    max-width: 10%;
+    margin-left: 0%;
+    float: none;
+  }
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
+
 }
 
 /* ==========================================================================
