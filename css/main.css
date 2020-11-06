@@ -254,7 +254,8 @@ html {
 }
 @media only screen and (min-width: 100em) {
   #profile-photo {
-    max-width: 10%;
+    min-width: 10%;
+    max-width: 15%;
     margin-left: 0%;
     float: none;
   }
